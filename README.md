@@ -25,11 +25,36 @@ I made this using React and MongoDB as the main focus, the reason being that I n
 
 ## Pictures
 
-Home page
-![Screenshot Home page](https://raw.githubusercontent.com/Maxohl/max-market/main/public/image.png)
+### Home page
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/image.png" alt="Screenshot Home page" width="500"/>
 
-Viewing Product
-![View Product Screenshot](https://raw.githubusercontent.com/Maxohl/max-market/main/public/ViewProduct.png)
+### Viewing Product
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/ViewProduct.png" alt="View Product Screenshot" width="500"/>
+
+### Cart and confirming purchase
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Cart1.png" alt="Cart Screenshot 1" width="500"/>
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Cart2.png" alt="Cart Screenshot 2" width="500"/>
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Cart3.png" alt="Cart Screenshot 3" width="500"/>
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Cart4.png" alt="Cart Screenshot 4" width="500"/>
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Cart5.png" alt="Cart Screenshot 5" width="500"/>
+
+### Profile
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Profile1.png" alt="Profile Screenshot" width="500"/>
+
+### Profile purchases
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Purchases.png" alt="Purchases Screenshot" width="500"/>
+
+### Profile products being sold
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Products%20for%20sale.png" alt="Products for Sale Screenshot" width="500"/>
+
+### Profile adding new Product
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/NewProduct.png" alt="New Product Screenshot" width="500"/>
+
+### Profile managing offers
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/ManageOffers.png" alt="Manage Offers Screenshot" width="500"/>
+
+### Profile Sales
+<img src="https://raw.githubusercontent.com/Maxohl/max-market/main/public/Sales.png" alt="Sales Screenshot" width="500"/>
 
 ## Installation
 
