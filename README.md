@@ -28,6 +28,9 @@ I made this using React and MongoDB as the main focus, the reason being that I n
 Home page
 ![Screenshot Home page](https://raw.githubusercontent.com/Maxohl/max-market/main/public/image.png)
 
+Viewing Product
+![View Product Screenshot](https://raw.githubusercontent.com/Maxohl/max-market/main/public/ViewProduct.png)
+
 ## Installation
 
 To run this project locally, follow these steps:
