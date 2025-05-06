@@ -23,6 +23,11 @@ I made this using React and MongoDB as the main focus, the reason being that I n
 - Search bar allows searching products by name or category
 - Offers button displays all products currently on offer
 
+## Pictures
+
+Home page
+![Screenshot Home page](https://raw.githubusercontent.com/Maxohl/max-market/main/public/image.png)
+
 ## Installation
 
 To run this project locally, follow these steps:
