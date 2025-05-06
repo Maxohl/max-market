@@ -1,0 +1,130 @@
+.manage-offers-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 950px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .manage-offers-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .select-all {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .select-all label {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap; 
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .select-all input {
+    margin: 0;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .product-item {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 180px;
+    height: 140px;
+    box-sizing: border-box;
+    transition: border 0.2s ease;
+  }
+
+  .product-item input[type="checkbox"] {
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    margin: 0; 
+  }
+  
+  .product-item input[type="checkbox"]:checked + label {
+    font-weight: bold;
+  }
+  
+  .product-item input[type="checkbox"]:checked {
+    accent-color: #007bff;
+  }
+  
+  .product-item input[type="checkbox"]:checked ~ label,
+  .product-item input[type="checkbox"]:checked ~ * {
+    border-color: #007bff;
+  }
+  
+  .product-item.checked {
+    border: 2px solid #007bff;
+  }
+
+  
+  .product-item label {
+    font-size: 14px;
+    color: #333;
+    word-break: break-word;
+  }
+  
+  .offer-controls {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .offer-controls input[type="number"] {
+    padding: 6px 10px;
+    width: 120px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .offer-controls button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .offer-controls button:hover {
+    background-color: #0056b3;
+  }
+
+  .expire-date-input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: 200px;
+  }
+
+  .product-image {
+    width: 100%;
+    height: 40px; /* or any fixed height you want */
+    object-fit: contain; /* ensures full image fits without cropping */
+    border-radius: 4px;
+    margin-bottom: 6px;
+    display: block;
+  }
+  

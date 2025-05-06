@@ -1,0 +1,9 @@
+.pageTitle {
+    text-align: center; /* Center align the content */
+    margin-top: 10px;
+  }
+  
+  .pageTitle h1 {
+    margin: 0; /* Remove default margin */
+  }
+  

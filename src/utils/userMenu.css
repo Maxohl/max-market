@@ -1,0 +1,59 @@
+/* Styling for the side menu */
+.side-menu {
+  width: 200px; /* Set a fixed width for the side menu */
+  background-color: #f4f4f4; /* Light background color */
+  border-right: 2px solid #ddd; /* Border on the right side */
+  padding: 20px; /* Add some padding around the content */
+  height: calc(100vh - 80px); /* Make the side menu take the full height of the page minus the navbar height */
+  position: fixed; /* Make the menu stay fixed on the left */
+  top: 91px; /* Push the side menu down below the navbar */
+  left: 0;
+}
+
+/* Remove default list styling */
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for each list item */
+.side-menu li {
+  position: relative; /* Required for pseudo-element */
+  text-decoration: none; /* Remove the underline */
+  color: #333; /* Dark text color */
+  font-weight: normal; /* Default weight */
+  display: flex; /* Ensure proper sizing */
+  align-items: center; /* Center text vertically */
+  padding: 10px; /* Add padding inside the links */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  cursor: pointer;
+}
+
+/* Create the vertical blue bar on hover */
+.side-menu li::before {
+  content: ""; /* Required for pseudo-element */
+  position: absolute;
+  left: -10px; /* Position the bar slightly outside the left */
+  top: 50%; /* Position in the middle */
+  transform: translateY(-50%); /* Center vertically */
+  width: 4px; /* Width of the vertical bar */
+  height: 100%; /* Match the height of the link */
+  background-color: #007bff; /* Blue color */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease, left 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the list items */
+.side-menu li:hover {
+  font-weight: bold; /* Make the font bolder on hover */
+  color: #007bff; /* Change text color on hover */
+  padding-left: 15px; /* Add left padding for a sliding effect */
+  
+}
+
+/* Show the vertical bar when hovering */
+.side-menu li:hover::before {
+  opacity: 1; /* Make the bar visible */
+  left: 0; /* Move the bar into place */
+}

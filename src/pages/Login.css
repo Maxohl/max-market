@@ -1,0 +1,38 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.login-form{
+    width: 300px;
+    margin: 20px;
+    border: 1px solid lightblue;
+    border-radius: 8px; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.login-form button {
+    width: 80%;
+    border: none; /* Remove button border */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White font color */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    padding: 10px;
+  }
+  
+.login-form button:hover {
+    transform: scale(1.05); /* Scale up button slightly on hover */
+    background-color: #0056b3; /* Slightly lighter shade of blue */
+  }
+
+.login-form input{
+    display: block; /* Display inputs and buttons as block elements */
+    width: calc(100% - 20px); /* Set width of inputs to fill the container */
+    margin: 10px auto; /* Add margin between input fields and center them horizontally */
+    font-size: 1.2rem; /* Increase font size of inputs */
+    padding: 8px; /* Add padding to inputs */
+  }

@@ -1,0 +1,73 @@
+  .navbar {
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .navbar-home {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .home-icon {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .home-icon:hover {
+    color: #007bff;
+  }
+
+  .searchBar {
+    position: absolute; /* Set absolute positioning */
+    top: 18px; /* Position the searchBar at the top */
+    width: 100%; /* Adjust the width */
+    max-width: 500px; /* Set a maximum width if needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontally to center properly */
+    margin-bottom: 10px; /* Add some space between searchBar and navbar-main */
+  }
+
+  .searchBar input[type="text"] {
+    width: 100%; /* Make the input field 100% of its parent's width */
+    padding: 8px; /* Add padding for better appearance */
+  }
+  
+  .navbar-main {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  
+  .navbar-sub {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* This will push navbar-sub to the right */
+    margin-top: 10px;
+  }
+
+  .navbar-main button,
+  .navbar-sub button {
+    margin-right: 10px; /* Add space between buttons */
+    background-color: transparent; /* Make the button background transparent */
+    border: none; /* Remove button border */
+    color: black; /* Set default font color */
+    outline: none; /* Remove button outline */
+    cursor: pointer; /* Change mouse cursor to pointer */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+
+  .navbar-main button:hover,
+  .navbar-sub button:hover {
+  color: #007bff; /* Change font color on hover */
+  }
+  
