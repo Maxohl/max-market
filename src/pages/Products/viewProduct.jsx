@@ -43,6 +43,13 @@ const ViewProduct = () => {
 
   // add product to the cart, if there is a valid discount, include it too.
   const handleAddToCart = () => {
+    const userData = JSON.parse(localStorage.getItem("user"));
+
+    if (!userData || !userData.id) {
+      alert("Please log in to add items to your cart.");
+      return;
+    }
+
     const isDiscountValid =
       product.discountValue && new Date(product.discountExpiresAt) > new Date();
   

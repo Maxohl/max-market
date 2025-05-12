@@ -8,6 +8,8 @@ const Logout = () => {
   useEffect(() => {
     // Clear the token cookie when the component mounts
     Cookies.remove('token');
+    // Remove stored user data
+    localStorage.removeItem("user");
     // Redirect to the home page after logout
     navigate('/');
   }, [navigate]);

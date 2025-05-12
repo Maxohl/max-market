@@ -34,10 +34,7 @@ function Navbar({ onSearch }) {  // Accept onSearch prop
   }, [location]); 
 
   const handleLogout = () => {
-    Cookies.remove('token');
-    setIsLoggedIn(false);
-    setUserID(null); 
-    navigate("/");
+    navigate("/logout");
   };
 
   return (

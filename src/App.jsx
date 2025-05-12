@@ -11,6 +11,7 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login"; 
 import Logout from "./pages/Logout";
 import Profile from "./pages/Users/Profile"; 
+import Contact from "./pages/Contact/contact";
 import ViewProduct from "./pages/Products/viewProduct";
 import ProductEdit from "./pages/Users/profileComponents/sellingProducts/productEdit";
 import Cart from "./pages/Cart/cart";
@@ -41,6 +42,7 @@ function App() {
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/:userID/profile" element={<Profile />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/vieworder/:orderId" element={<ViewOrder />} />
               <Route path="/manage-offers" element={<ManageOffers userID={userID} />} />
             </Routes>
